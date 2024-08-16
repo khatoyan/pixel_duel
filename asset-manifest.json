@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/pixel_duel/static/css/main.a75c03bb.css",
+    "main.js": "/pixel_duel/static/js/main.ae8012df.js",
+    "index.html": "/pixel_duel/index.html",
+    "main.a75c03bb.css.map": "/pixel_duel/static/css/main.a75c03bb.css.map",
+    "main.ae8012df.js.map": "/pixel_duel/static/js/main.ae8012df.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a75c03bb.css",
+    "static/js/main.ae8012df.js"
+  ]
+}

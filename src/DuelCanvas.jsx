@@ -6,8 +6,8 @@ import './App.css';
 const DuelCanvas = () => {
   const canvasRef = useRef(null);  
   const [heroes, setHeroes] = useState([
-    { x: 50, y: 50, color: 'blue', id: 0, speed: 2 + Math.random(), fireRate: 1000, direction: 1, lastFireTime: 0, hits: 0 },
-    { x: 450, y: 50, color: 'red', id: 1, speed: 2 + Math.random(), fireRate: 1000, direction: 1, lastFireTime: 0, hits: 0 },
+    { x: 50, y: 50, color: 'blue', id: 0, speed: Math.ceil(2 + Math.random()), fireRate: 1000, direction: 1, lastFireTime: 0, hits: 0 },
+    { x: 450, y: 50, color: 'red', id: 1, speed: Math.ceil(2 + Math.random()), fireRate: 1000, direction: 1, lastFireTime: 0, hits: 0 },
   ]);
   const [spells, setSpells] = useState([]);
   const [settingsHero, setSettingsHero] = useState(null);

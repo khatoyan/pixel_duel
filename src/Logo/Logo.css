@@ -1,0 +1,15 @@
+.logo {
+    font-family: 'Press Start 2P', cursive; /* Шрифт в стиле пиксельных игр */
+    font-size: 48px;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 0 #000,
+                  2px -2px 0 #000,
+                 -2px 2px 0 #000,
+                 -2px -2px 0 #000,
+                  2px 0px 0 #000,
+                 -2px 0px 0 #000,
+                  0px 2px 0 #000,
+                  0px -2px 0 #000;
+    margin-bottom: 20px;
+  }
